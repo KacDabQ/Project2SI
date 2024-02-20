@@ -7,15 +7,26 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.food {
+.main {
+  margin: 25px;
+  width: 700px;
+  min-width: 700px;
+}
+
+.main .title {
+  width: 100%;
+
+}
+
+.food .list  {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   gap: 20px;
 }
 
-.foodChoice {
+.food .list li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,23 +42,29 @@ body {
   transition: 0.3s;
 }
 
-.foodChoice:hover {
+.food .list li:hover {
   scale: 103%;
 }
 
-.foodChoice:active {
+.food .list li:active {
   scale: 97%;
 }
 
-.foodChoice > img {
+.food .list li > img {
   max-height: 100px;
   margin-bottom: 33px;
 }
 
-.FoodWeight {
+.food .list li .name {
+  font-size: x-large;
+}
+
+.food .list li .weight {
   color: rgb(169, 169, 169);
 }
 
-.FoodPrice {
+.food .list li .price {
   color: var(--main-color);
+  font-size: large;
+  margin-top: 0.5rem;
 }
