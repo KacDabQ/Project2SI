@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="navbar.css" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SmartPOS</title>
@@ -62,55 +64,65 @@
         <div class="SmallSpan">Waiter - 4h 56m</div>
         <div id="OpenProfile">Open Profile</div>
       </div>
-      <span class="SmallSpan">@2020 SmartPOS App</span>
+      <span class="SmallSpan" id="copyright">&copy 2020 SmartPOS App</span>
     </nav>
     <div class="main">
       <header>
         <div class="LeftHeader">
-          <img src="" alt="" />
-          Food & Drinks > Burgers
+          <div class="back">
+            <img
+              src="icons/arrow_back_FILL0_wght400_GRAD0_opsz24.svg"
+              alt="<"
+            />
+          </div>
+          <h4>Food & Drinks > Burgers</h4>
         </div>
         <div class="RightHeader">
-          <div class="search"><img src="" alt="" /><span>Search</span></div>
+          <div class="search">
+            <img
+              src="icons/search_FILL0_wght400_GRAD0_opsz24.svg"
+              alt="?"
+            /><input type="search" />
+          </div>
         </div>
       </header>
-      <h3>Burgers🌯</h3>
+      <h1>Burgers🌯</h1>
       <div class="food">
-        <div id="Cheeseburger">
-          <img src="" alt="" />
-          <span class="FoodName">Cheeseburger</span>
+        <div class="foodChoice">
+          <h2 class="FoodName">Cheeseburger</h2>
+          <img src="assets/Cheeseburger.jpg" alt="Cheeseburger" />
           <span class="FoodWeight">150g</span>
-          <span class="FoodPrice">$3,50</span>
+          <h2 class="FoodPrice">$3,50</h2>
         </div>
-        <div id="Cheeseburger">
-          <img src="" alt="" />
-          <span class="FoodName">Cheeseburger</span>
+        <div class="foodChoice">
+          <h2 class="FoodName">Hamburger</h2>
+          <img src="assets/Hamburger.jpg" alt="Hamburger" />
           <span class="FoodWeight">150g</span>
-          <span class="FoodPrice">$3,50</span>
+          <h2 class="FoodPrice">$3,50</h2>
         </div>
-        <div id="Cheeseburger">
-          <img src="" alt="" />
-          <span class="FoodName">Cheeseburger</span>
+        <div class="foodChoice">
+          <h2 class="FoodName">Deluxeburger</h2>
+          <img src="assets/deluxeburger.jpg" alt="Deluxeburger" />
           <span class="FoodWeight">150g</span>
-          <span class="FoodPrice">$3,50</span>
+          <h2 class="FoodPrice">$3,50</h2>
         </div>
-        <div id="Cheeseburger">
-          <img src="" alt="" />
-          <span class="FoodName">Cheeseburger</span>
+        <div class="foodChoice">
+          <h2 class="FoodName">Gold Burger</h2>
+          <img src="assets/expensiveburger.jpg" alt="Expensiveburger" />
           <span class="FoodWeight">150g</span>
-          <span class="FoodPrice">$3,50</span>
+          <h2 class="FoodPrice">$3,50</h2>
         </div>
-        <div id="Cheeseburger">
-          <img src="" alt="" />
-          <span class="FoodName">Cheeseburger</span>
+        <div class="foodChoice">
+          <h2 class="FoodName">Pomodoro</h2>
+          <img src="assets/pomodoro.jpg" alt="Pomodoro" />
           <span class="FoodWeight">150g</span>
-          <span class="FoodPrice">$3,50</span>
+          <h2 class="FoodPrice">$3,50</h2>
         </div>
-        <div id="Cheeseburger">
-          <img src="" alt="" />
-          <span class="FoodName">Cheeseburger</span>
+        <div class="foodChoice">
+          <h2 class="FoodName">Baconburger</h2>
+          <img src="assets/baconburger.jpg" alt="Baconburger" />
           <span class="FoodWeight">150g</span>
-          <span class="FoodPrice">$3,50</span>
+          <h2 class="FoodPrice">$3,50</h2>
         </div>
       </div>
     </div>
