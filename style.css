@@ -5,6 +5,11 @@
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  justify-content: center;
+}
+
+.subBody {
+  display: flex;
 }
 
 .main {
@@ -67,4 +72,17 @@ body {
   color: var(--main-color);
   font-size: large;
   margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 980px) {
+  .main {
+    width: auto;
+    min-width: auto;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .food .list  {
+    justify-content: center;
+  }
 }
