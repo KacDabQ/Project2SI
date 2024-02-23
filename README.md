@@ -9,4 +9,4 @@ Proszę zapoznać się z zasadami użycia
 
 
 
-yk wa=hat? Nevermind.
+yk what? Nevermind.
